@@ -1,0 +1,218 @@
+.profile {
+    height: auto 13;
+    overflow: hidden;
+    padding-left: 15px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(55, 55, 55, 1) 100%);
+    color: #F6C519;
+    padding-bottom: 15px;
+}
+
+.profile span {
+    font-size: 65%;
+    margin-bottom: 10px;
+}
+
+.profile a {
+    cursor: pointer;
+}
+
+.profile p {
+    padding-top: -10px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    color: rgb(204, 204, 204);
+}
+
+.profile-cover img {
+    object-position: 0 10%;
+    object-fit: cover;
+    width: 100%;
+    height: 150px;
+}
+
+.profile-head {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.profile-head img {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    float: left;
+    border-radius: 50%;
+    margin: -90px 10px 0 0;
+    position: relative;
+    z-index: 111;
+    background-color: white;
+}
+
+.profile-head a {
+    text-decoration: none;
+}
+
+.profile-head i {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 80%;
+    color: rgb(206, 206, 206);
+}
+
+.profile-head i:hover {
+    color: rgb(158, 158, 158);
+}
+
+.profile-nav {
+    padding-top: 10px;
+    color: #F6C519;
+    padding-bottom: 15px;
+    align-content: left;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.profile-nav a {
+    color: #F6C519;
+    text-decoration: none;
+}
+
+.profile-nav img {
+    padding-top: 10px;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.profile-nav h3 {
+    padding-left: 10px;
+}
+
+.profile-nav a:hover {
+    background: rgb(29, 29, 29);
+}
+
+.nav-pills .nav-link:not(.active) {
+    background-color: transparent;
+}
+
+.nav-pills .nav-link {
+    background-color: transparent;
+    background: transparent;
+}
+
+.red .active a,
+.red .active a:hover {
+    background-color: red;
+}
+
+.nav-pills>.active>a,
+.nav-pills>.active>a:hover {
+    background-color: red;
+}
+
+.sa_modal {
+    background-color: gray;
+    color: #F6C519;
+}
+
+.review {
+    padding-top: 10px;
+    text-align: left;
+}
+
+.review select {
+    width: auto;
+    align-content: right;
+    text-align-last: right;
+    float: right;
+    align-self: right;
+    background-color: rgb(231, 231, 231);
+}
+
+.botonera {
+    text-align: center;
+}
+
+.botonera i {
+    font-size: 150%;
+    cursor: pointer;
+}
+
+
+/* .comment-wrapper .panel-body {
+    max-height: 650px;
+} */
+
+.comment-wrapper .media-list .media img {
+    width: 64px;
+    height: 64px;
+    /* border: 2px solid #e5e7e8; */
+}
+
+.comment-wrapper .media-list .media {
+    border-bottom: 1px dashed #efefef;
+    margin-bottom: 25px;
+}
+
+.rounded img {
+    border-radius: 50%;
+}
+
+.reviews {
+    color: #F6C519;
+}
+
+.rounded p {
+    color: rgb(219, 219, 219);
+}
+
+.rounded p,
+span,
+small {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.rounded {
+    padding-left: 10px;
+    font-size: 120%;
+    min-width: 10px;
+}
+
+.rounded p {
+    text-align: justify;
+}
+
+.p-r {
+    float: right;
+}
+
+.p-r i {
+    padding-left: 10px;
+    cursor: pointer;
+    font-size: 120%;
+}
+
+.p-r i:hover {
+    color: rgb(216, 169, 0);
+}
+
+.insignia {
+    text-align: center;
+}
+
+.insignia p {
+    size: 12px;
+    margin-top: 10px;
+}
+
+.insignia img {
+    object-fit: cover;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.padd {
+    padding: 10px 10px 10px 10px;
+}
